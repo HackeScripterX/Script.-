@@ -1,4 +1,4 @@
--- Fly by hackescripter --
+-- Fly by HackeScripterX --
 
 local main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -58,7 +58,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 100, 0, 28)
 TextLabel.Font = Enum.Font.Michroma
-TextLabel.Text = "Fly by hackescripter"
+TextLabel.Text = "Fly by HackeScripterX"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -138,8 +138,8 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "FLY BY HACKESCRIPTERX";
-	Text = "Fly by HackeScripterX";
+	Title = "BY HACKESCRIPTERX";
+	Text = "Fly By: HackeScripterX";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
 
@@ -473,4 +473,4 @@ mini2.MouseButton1Click:Connect(function()
 	mini2.Visible = false
 	main.Frame.BackgroundTransparency = 0 
 	closebutton.Position =  UDim2.new(0, 0, -1, 27)
-end
+end)
